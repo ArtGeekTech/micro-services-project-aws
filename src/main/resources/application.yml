@@ -1,0 +1,23 @@
+#AWS properties
+cloud:
+  aws:
+    region:
+      static: us-west-1
+    stack:
+      auto: false
+    credentials:
+      accessKey: AKIA44URZXBPSZL4J2F5
+      secretKey: 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
+
+application:
+  bucket:
+    name: techbow-spring-amazon-storage-1
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
+server:
+  port: 8084
